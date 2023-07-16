@@ -126,10 +126,10 @@ main {
     margin-bottom: 20px;
 }
 
-.teams-description{
+/* .teams-description{
     margin-bottom: 20px;
-    width: 550px;
-}
+    width: 50%px;
+} */
 
 .teams-title .quick-list {
     color: #727272;
@@ -143,13 +143,15 @@ main {
 
 /* features section */
 .features {
-    margin-top: 100px;
     display: flex;
     gap: 20px;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
 }
 
 .feature-content{
-    width: 600px;
+    width: 60%;
     margin-left: 80px;
 }
 
@@ -270,20 +272,6 @@ main {
     font-size: 1rem;
     padding: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
