@@ -126,10 +126,9 @@ main {
     margin-bottom: 20px;
 }
 
-/* .teams-description{
+.teams-description{
     margin-bottom: 20px;
-    width: 50%px;
-} */
+}
 
 .teams-title .quick-list {
     color: #727272;
@@ -307,6 +306,7 @@ main {
 
     .teams-img-container {
         grid-template-columns: 1fr;
+        margin: auto;
     }
 
     .teams-content,
