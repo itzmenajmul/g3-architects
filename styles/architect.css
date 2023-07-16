@@ -27,6 +27,11 @@
     cursor: pointer;
 }
 
+.text-lightgray {
+    color: #727272;
+    font-size: 1rem;
+}
+
 /* header style */
 header {
     background: rgba(255, 144, 14, 0.10);
@@ -75,11 +80,6 @@ nav li a {
     font-weight: 700;
 }
 
-.banner-description {
-    color: #727272;
-    font-size: 1rem;
-}
-
 .banner-img {
     width: 100%;
     margin-top: 30px;
@@ -88,7 +88,7 @@ nav li a {
 /* main styles */
 main {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 
 }
 
@@ -150,8 +150,16 @@ main {
         padding: 20px;
     }
 
-    nav {
+    nav, .teams-container {
         flex-direction: column;
+    }
+    .teams-img-container{
+        grid-template-columns: 1fr;
+    }
+
+    .teams-content {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
@@ -161,7 +169,7 @@ main {
         padding: 50px;
     }
 
-    nav {
+    nav, .teams-container {
         flex-direction: column;
     }
 }
